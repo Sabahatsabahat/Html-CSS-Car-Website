@@ -1,0 +1,70 @@
+/* General Styles for Mobile */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Add a default font */
+}
+
+.welcome-hero {
+    text-align: center; /* Center text for smaller screens */
+}
+
+.welcome-hero h2 {
+    font-size: 36px; /* Default size for mobile */
+}
+
+/* Max-width: 1440px */
+@media screen and (max-width: 1440px) {
+    .welcome-hero-txt { padding: 200px 10px 100px; }
+    .model-search-content { position: relative; top: 80px; }
+}
+
+/* Max-width: 1199px */
+@media screen and (max-width: 1199px) {
+    .welcome-hero-txt h2 { font-size: 32px; }
+    .welcome-btn.model-search-btn { margin-left: 20px; }
+    .featured-cars-img { padding: 0 5px; }
+}
+
+/* Max-width: 992px */
+@media screen and (max-width: 992px) {
+    nav.navbar.bootsnav { background-color: #000; }
+    nav.navbar.bootsnav .navbar-brand { padding: 15px; }
+    nav.navbar.bootsnav ul.nav > li > a { padding: 10px 5px; }
+}
+
+/* Max-width: 768px */
+@media screen and (max-width: 768px) {
+    .welcome-hero-txt { padding: 150px 0 80px; }
+    .single-new-cars-item { max-width: 90%; margin: 20px auto; }
+}
+
+/* Max-width: 640px */
+@media screen and (max-width: 640px) {
+    .single-testimonial-box { max-width: 90%; margin: 0 auto; }
+    .footer-social a i { margin: 0 10px; }
+}
+
+/* Max-width: 480px */
+@media screen and (max-width: 480px) {
+    .welcome-hero h2 { font-size: 28px; }
+    .single-model-search h2 { font-size: 18px; }
+    .welcome-btn.model-search-btn { width: 100%; margin: 10px 0; }
+}
+
+/* Max-width: 440px */
+@media screen and (max-width: 440px) {
+    .welcome-hero-txt h2 { font-size: 24px; line-height: 1.4; }
+}
+
+/* Max-width: 399px */
+@media screen and (max-width: 399px) {
+    .testimonial-carousel .col-sm-3, .testimonial-carousel .col-xs-12 { width: 100%; }
+    .section-header h2 { font-size: 26px; }
+}
+
+/* Max-width: 350px */
+@media screen and (max-width: 350px) {
+    nav.navbar.bootsnav .navbar-toggle { margin-right: -15px; }
+    nav.navbar.bootsnav .navbar-brand { font-size: 18px; }
+}
